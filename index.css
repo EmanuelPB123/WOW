@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.content{
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.header-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    z-index: 2;
+    opacity: 0.55;
+}
+
+.header-video video{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.header-overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-content{
+    z-index: 2;
+}
+
+.header-content h1{
+    margin-bottom: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 39px;
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.52px;
+    text-shadow: 0 4px 9px rgb(6 16 25 / 45%);
+    text-align: center;
+}
+
+.header-content p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    opacity: 0.77;
+    max-width: 616px;
+    padding-top: 6px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-family:Arial;
+}
+
+.btn{
+    background-image: linear-gradient(to top, #de2414 0%, #fc611d  100% );
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 12px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to top , #fc611d  0%, #fc611d  100%);
+}
+
+.back{background-image: linear-gradient(to top, rgb(1, 0, 8), rgb(14, 0, 0) );
+}
+.footer{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    opacity: 0.77;
+    max-width: 616px;
+    padding-top: 6px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-family:Arial;
+}
+}
+@media (max-width: 960px) {
+    .content {
+      padding: 0 3rem 0 3rem;
+    }
+  }
+
+  
+  
